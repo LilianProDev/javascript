@@ -23,18 +23,20 @@
     <script>
         function verificar() {
 
-        var paíso = window.document.querySelector('input#país')
+        var opais = window.document.querySelector('input#país')
 
         var ori = window.document.querySelector('div#ori')
 
-        ori.innerHTML = `<p>Vivendo na(a) ${paíso}</p>`
+        ori.innerHTML = `<p>Vivendo na(a) ${opais.value}</p>`
 
-
+        if (opais.value != 'Brasil') {
+            ori.innerHTML += '<p>Você é <strong>Estrangeiro</strong></p>'
+            
+        } else {
+            ori.innerHTML += '<p>Voçê é <strong>Brasileiro</strong></p>'
         }
 
-
-
-
+        }
 
     </script>
 </body>
