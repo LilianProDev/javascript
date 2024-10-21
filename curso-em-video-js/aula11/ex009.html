@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgba(238, 130, 238, 0.912);
+        }
+    </style>
+</head>
+<body>
+    <h1>Praticando!</h1>
+
+    <input type="text" name="país" id="país">
+
+    <input type="button" value="enviar" onclick="verificar()">
+    
+    <div id="ori">Origem</div>
+
+    <script>
+        function verificar() {
+
+        var paíso = window.document.querySelector('input#país')
+
+        var ori = window.document.querySelector('div#ori')
+
+        ori.innerHTML = `<p>Vivendo na(a) ${paíso}</p>`
+
+
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>
