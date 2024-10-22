@@ -14,17 +14,27 @@
 
     <section>
 
-        <div id="ano">Ano de Nascimento:
-           <input type="date" name="anonasc" id="anonasc">
-            
+        <div>
+            <p>Ano de Nascimento
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminio</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+   
         </div>
-        
-
-        <div>Sexo: 
-            <input id="sexom" type="checkbox" name="masc" id="masc"> Masculino
-            <input id="sexof" type="checkbox" name="fem" id="fem"> Feminio <br>
-
-            <input type="button" value="Verificar">
+            
+        <div id="resul">
+            Preencha os dados acima para ver o resultado!
         </div>
         
     </section>
