@@ -16,7 +16,7 @@ for (let soma = 1; soma <= 100; soma++) {
 }  */
 
     let soma = 0;
-    for (let i = 1; i <= 100; i++) {
-        console.log(soma += i)
+    for (let i = 1; i <= 100; soma += i) {
+        
     }
-    
+    console.log(soma)
