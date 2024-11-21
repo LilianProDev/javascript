@@ -7,9 +7,7 @@
     console.log(i)
 } */
 
-let somar = "0"
-for (let soma = 1; soma >= 100; soma++) {
-
-    somar += soma
+let somar =""
+for (let soma = 1; soma <= 100; soma + somar) {
     console.log(soma)
 }
