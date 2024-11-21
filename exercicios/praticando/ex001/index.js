@@ -36,3 +36,11 @@ for (let soma = 1; soma <= 100; soma++) {
     console.log("7" + " x " + t + " = " + 7 * t )
 } */
 
+
+const listaDeCompras = ["Açucar", false]
+console.log(listaDeCompras)
+
+listaDeCompras[0] = "Arroz"
+listaDeCompras[1] = "Feijão"
+listaDeCompras[2] = "Farinha"
+console.log(listaDeCompras)
