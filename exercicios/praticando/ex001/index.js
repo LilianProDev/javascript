@@ -15,8 +15,15 @@ for (let soma = 1; soma <= 100; soma++) {
     console.log(soma)
 }  */
 
-    let soma = 0;
+   
+    let soma = 0
     for (let i = 1; i <= 100; i++) {
-        console.log(soma += i)
+
+        
+        soma += i
+      
+        console.log(+soma)
     }
+
+    
     
