@@ -7,13 +7,32 @@
     console.log(i)
 } */
 
-let somar = 0
+/*let somar = 0
 for (let soma = 1; soma <= 100; soma++) {
 
     somar += soma
 
     console.log("A soma de: " + somar  + " + " + soma + "=" + soma)
-} 
- 
+} */
+
+/* for (let pares = 0; pares <= 20; pares++) {
+    if(pares % 2 === 0) {
+
+        alert(pares)
+    }
+
+} */
+
+/*  for (let impar = 1; impar <=20; impar++) {
+    if(impar % 2 !== 0 ) {
+        alert(impar)
+    }
+ } */
+
+
+
+/* for (let t = 0; t<= 7; t++) {
     
-    
+    console.log("7" + " x " + t + " = " + 7 * t )
+} */
+
