@@ -1,5 +1,13 @@
 let contador = 1
-while (contador <= 6 ) {
+
+/* while (contador <= 3 ) {
     console.log('Tudo bem?')
-    c++
-}
+    contador++
+} */
+
+do {
+
+    console.log('Tudo bem?')
+    contador++
+
+} while (contador <= 3 )
